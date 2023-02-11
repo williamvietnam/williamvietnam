@@ -22,18 +22,29 @@ My name is William Giang Nguyen. I am a software developer.
     <a href="" target="_blank"> <img src="https://raw.githubusercontent.com/williamvietnam/williamvietnam/main/images/react_icon.png" alt="react" width="48" height="40"/> </a>
 </p>
 
-<a href="https://github.com/williamvietnam/AndroidOpenSourceProjects/">
-  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=williamvietnam&repo=AndroidOpenSourceProjects&theme=graywhite"/>
-</a>    
+[//]: # (<a href="https://github.com/williamvietnam/AndroidOpenSourceProjects/">)
 
-<a href="https://github.com/williamvietnam/android-architectures">
-  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=williamvietnam&repo=android-architectures&theme=default_repocard"/>
-</a>  
+[//]: # (  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=williamvietnam&repo=AndroidOpenSourceProjects&theme=graywhite"/>)
 
-<a href="https://github.com/williamvietnam/OdooOpenSourceProjects">
-  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=williamvietnam&repo=OdooOpenSourceProjects&theme=graywhite"/>
-</a>  
+[//]: # (</a>    )
 
-<a href="https://github.com/williamvietnam/android-material-design">
-  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=williamvietnam&repo=android-material-design&theme=default_repocard"/>
-</a>  
+[//]: # ()
+[//]: # (<a href="https://github.com/williamvietnam/android-architectures">)
+
+[//]: # (  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=williamvietnam&repo=android-architectures&theme=default_repocard"/>)
+
+[//]: # (</a>  )
+
+[//]: # ()
+[//]: # (<a href="https://github.com/williamvietnam/OdooOpenSourceProjects">)
+
+[//]: # (  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=williamvietnam&repo=OdooOpenSourceProjects&theme=graywhite"/>)
+
+[//]: # (</a>  )
+
+[//]: # ()
+[//]: # (<a href="https://github.com/williamvietnam/android-material-design">)
+
+[//]: # (  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=williamvietnam&repo=android-material-design&theme=default_repocard"/>)
+
+[//]: # (</a>  )
