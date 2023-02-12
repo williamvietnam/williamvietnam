@@ -4,9 +4,29 @@
     box-sizing: border-box;
 }
 
+@media only screen and (max-width: 512px) {
+    .ui-computer-container {
+        display: none;
+    }
+
+    .ui-phone-container {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 512px) {
+    .ui-computer-container {
+        display: block;
+    }
+
+    .ui-phone-container {
+        display: none;
+    }
+}
+
 .ui-computer-container {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    min-height: 100vh;
     background-color: black;
     padding: 16px;
 }
@@ -18,6 +38,7 @@
     background-color: white;
     width: 70vw;
     height: 100%;
+    min-height: 100vh;
 }
 
 .personal-information-wrapper {
@@ -58,12 +79,17 @@
     margin-top: 16px;
 }
 
+.carrer-and-skills-wrapper,
+.education-and-certification-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .career-objectives-wrapper {
     margin-top: 16px;
-    background-color: thistle;
+    background-color: antiquewhite;
     border-radius: 12px;
     padding: 16px;
-    display: inline-block;
     width: fit-content;
 }
 
@@ -71,4 +97,104 @@
     margin-top: 16px;
 }
 
-.ui-phone-container {}
+.skills-container {
+    margin-top: 16px;
+    padding: 12px;
+    width: 70%;
+    background-color: antiquewhite;
+    height: fit-content;
+    border-radius: 8px;
+}
+
+.skills-wrapper {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.sub-skills-wrapper {
+    width: 50%;
+    margin: 0 8px;
+}
+
+.skill {
+    margin-top: 18px;
+}
+
+.skill-name {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.skill-bar {
+    height: 14px;
+    background: #282828;
+    border-radius: 3px;
+}
+
+.skill-per {
+    height: 14px;
+    background: #d13639;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+}
+
+.skill-per::before {
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    font-size: 12px;
+    top: -30px;
+    right: 0;
+    transform: translateX(50%);
+}
+
+.skill-per::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #f1f1f1;
+    top: -15px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+}
+
+@keyframes fillBars {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.education-wrapper {
+    margin-top: 16px;
+    background-color: antiquewhite;
+    width: 50%;
+    border-radius: 8px;
+    padding: 16px 32px;
+}
+
+.certifications-wrapper {
+    margin-top: 16px;
+    background-color: antiquewhite;
+    width: 45%;
+    border-radius: 8px;
+    padding: 16px 24px;
+}
+
+.working-experience-wrapper {
+    margin-top: 16px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    padding: 16px 24px;
+    min-height: 512px;
+}
