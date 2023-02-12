@@ -2,8 +2,6 @@
 
 My name is William Giang Nguyen. I am a software developer.
 
-### Education
-
 ### 📫 Contact with me:
 <p style="display: inline-block; align-items: center; margin-bottom: 8px;">
     <a target="_blank" href="https://www.linkedin.com/in/nguyenbanggiang/"><img src="https://raw.githubusercontent.com/williamvietnam/williamvietnam/main/images/linkedin_icon.png" alt="linkedin" width="32" height="32"/></a>
