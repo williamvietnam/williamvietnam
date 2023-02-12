@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ui-computer-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    padding: 16px;
+}
+
+.wrapper {
+    padding: 16px 26px;
+    margin: auto;
+    border-radius: 12px;
+    background-color: white;
+    width: 70vw;
+    height: 100%;
+}
+
+.personal-information-wrapper {
+    box-sizing: content-box;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    padding: 8px;
+    height: 168px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-methods {
+    width: 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-methods a {
+    text-decoration: none;
+    font-size: 32px;
+    color: black;
+    background: white;
+    border-radius: 50%;
+}
+
+.top-contact,
+.bottom-contact {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-contact {
+    margin-top: 16px;
+}
+
+.career-objectives-wrapper {
+    margin-top: 16px;
+    background-color: thistle;
+    border-radius: 12px;
+    padding: 16px;
+    display: inline-block;
+    width: fit-content;
+}
+
+.career-objectives-wrapper li {
+    margin-top: 16px;
+}
+
+.ui-phone-container {}
