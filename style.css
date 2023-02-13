@@ -10,6 +10,7 @@
     }
 
     .ui-phone-container {
+        padding: 8px;
         display: block;
     }
 }
