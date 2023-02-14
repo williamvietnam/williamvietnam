@@ -24,10 +24,11 @@
 }
 
 .phone-career-objectives-wrapper {
+    width: 62%;
     margin-top: 12px;
     background-color: antiquewhite;
     border-radius: 8px;
-    padding: 12px 20px;
+    padding: 8px;
 }
 
 .phone-career-objectives-wrapper li {
@@ -35,7 +36,7 @@
 }
 
 .phone-career-objectives-wrapper p {
-    font-size: 16px;
+    font-size: 12px;
     margin-top: 6px;
 }
 
@@ -59,15 +60,16 @@
 }
 
 .phone-skills-container {
-    margin-top: 16px;
-    width: 100%;
+    margin-left: 6px;
+    margin-top: 12px;
+    padding: 8px 4px;
+    width: 35%;
     background-color: antiquewhite;
     height: fit-content;
-    border-radius: 8px;
+    border-radius: 6px;
 }
 
 .phone-skills-wrapper {
-    display: inline-flex;
     justify-content: space-around;
     width: 100%;
 }
@@ -78,23 +80,23 @@
 }
 
 .phone-skill {
-    margin-top: 18px;
+    margin-top: 12px;
 }
 
 .phone-skill-name {
     font-weight: bold;
-    font-size: 12px;
+    font-size: 10px;
     margin: 5px 0;
 }
 
 .phone-skill-bar {
-    height: 6px;
+    height: 4px;
     background: #282828;
     border-radius: 4px;
 }
 
 .phone-skill-per {
-    height: 6px;
+    height: 4px;
     background: #d13639;
     border-radius: 4px;
     position: relative;
@@ -107,8 +109,22 @@
     padding: 4px 6px;
     background-color: #f1f1f1;
     border-radius: 4px;
-    font-size: 10px;
-    top: -20px;
+    font-size: 8px;
+    top: -23px;
     right: 0;
     transform: translateX(50%);
+}
+
+.phone-working-experience-wrapper {
+    margin-bottom: 56px;
+    margin-top: 12px;
+    min-height: 256px;
+    width: 100%;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    padding: 12px 20px;
+}
+
+.phone-working-experience-wrapper>div {
+    margin-top: 12px;
 }
