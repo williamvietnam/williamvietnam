@@ -1,0 +1,130 @@
+.phone-personal-information-wrapper {
+    height: 108px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    padding: 6px;
+}
+
+.phone-contact-methods {
+    width: fit-content;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.phone-contact-methods a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    background: white;
+    border-radius: 50%;
+}
+
+.phone-career-objectives-wrapper {
+    width: 62%;
+    margin-top: 12px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.phone-career-objectives-wrapper li {
+    margin-top: 8px;
+}
+
+.phone-career-objectives-wrapper p {
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.phone-education-wrapper {
+    display: inline-block;
+    margin-top: 16px;
+    background-color: antiquewhite;
+    width: 61%;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.phone-certifications-wrapper {
+    margin-left: 6px;
+    display: inline-block;
+    margin-top: 16px;
+    background-color: antiquewhite;
+    width: 35%;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.phone-skills-container {
+    margin-left: 6px;
+    margin-top: 12px;
+    padding: 8px 4px;
+    width: 35%;
+    background-color: antiquewhite;
+    height: fit-content;
+    border-radius: 6px;
+}
+
+.phone-skills-wrapper {
+    justify-content: space-around;
+    width: 100%;
+}
+
+.phone-sub-skills-wrapper {
+    width: 50%;
+    margin: 0 8px;
+}
+
+.phone-skill {
+    margin-top: 12px;
+}
+
+.phone-skill-name {
+    font-weight: bold;
+    font-size: 10px;
+    margin: 5px 0;
+}
+
+.phone-skill-bar {
+    height: 4px;
+    background: #282828;
+    border-radius: 4px;
+}
+
+.phone-skill-per {
+    height: 4px;
+    background: #d13639;
+    border-radius: 4px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+}
+
+.phone-skill-per::before {
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    font-size: 8px;
+    top: -23px;
+    right: 0;
+    transform: translateX(50%);
+}
+
+.phone-working-experience-wrapper {
+    margin-bottom: 56px;
+    margin-top: 12px;
+    min-height: 256px;
+    width: 100%;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    padding: 12px 20px;
+}
+
+.phone-working-experience-wrapper>div {
+    margin-top: 12px;
+}
