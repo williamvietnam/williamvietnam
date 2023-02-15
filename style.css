@@ -199,3 +199,13 @@
     padding: 16px 24px;
     min-height: 512px;
 }
+
+.working-experience-wrapper div {
+    font-size: 18px;
+    margin-top: 22px;
+}
+
+.working-experience-wrapper p {
+    font-size: 18px;
+    margin-top: 10px;
+}
