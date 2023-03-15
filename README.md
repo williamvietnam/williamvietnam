@@ -1,6 +1,6 @@
 ### WELCOME TO MY PAGE 👋👋👋
 
-My name is William Giang Nguyen. I am a software developer.
+I'm android developer. I'm from Vietnam. I have more than 2 years of experience about Android Development.
 
 ### 📫 Contact with me:
 <p style="display: inline-block; align-items: center; margin-bottom: 8px;">
@@ -8,8 +8,6 @@ My name is William Giang Nguyen. I am a software developer.
     <a target="_blank" href="https://stackoverflow.com/users/18555779/williamvietnam"><img src="https://raw.githubusercontent.com/williamvietnam/williamvietnam/main/images/stackoverflow_icon.png" alt="stackoverflow" width="32" height="32"></a>
     <a target="_blank" href="https://www.facebook.com/nbg2307"><img src="https://raw.githubusercontent.com/williamvietnam/williamvietnam/main/images/facebook_icon.png" alt="stackoverflow" width="28" height="28"></a>
 </p>
-
-![WilliamVietnam's GitHub stats](https://github-readme-stats.vercel.app/api?username=williamvietnam&theme=default&show_icons=true)
 
 <h3 style="margin-bottom:16px" align="left">Languages & Frameworks:</h3>
 <p align="left">
